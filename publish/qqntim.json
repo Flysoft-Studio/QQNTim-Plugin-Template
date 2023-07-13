@@ -1,0 +1,17 @@
+{
+    "manifestVersion": "2.0",
+    "id": "template-plugin",
+    "name": "QQNTim 模板插件",
+    "author": "Flysoft",
+    "injections": [
+        {
+            "type": "main",
+            "script": "main.js"
+        },
+        {
+            "type": "renderer",
+            "stylesheet": "style.css",
+            "script": "renderer.js"
+        }
+    ]
+}
