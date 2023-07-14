@@ -43,7 +43,7 @@ jobs:
               run: |
                   mkdir upload
                   pushd dist
-                  zip -r9 ../upload/$(node --eval 'console.log(require("./publish/qqntim.json").id)').zip .
+                  zip -r9 ../upload/$(node --eval 'console.log(require("../publish/qqntim.json").id)').zip .
                   popd
 
             - name: Upload artifact
