@@ -18,9 +18,9 @@ async function buildPlugin() {
         minify: isProduction,
         treeShaking: isProduction,
         format: "cjs",
-        entryPoints: [`src${s}main.ts`, `src${s}renderer.ts`],
+        entryPoints: [`src${s}main.ts`, `src${s}renderer.ts`, `src${s}settings.tsx`],
         outdir: "dist",
-        external: ["electron", "react", "react/jsx-runtime", "react-dom", "react-dom/client", "qqntim/main", "qqntim/renderer"],
+        external: ["electron", "react", "react/jsx-runtime", "react-dom", "react-dom/client", "qqntim/main", "qqntim/renderer", "qqntim-settings", "qqntim-settings/components"],
     });
     await fs.copy("publish", "dist");
 }

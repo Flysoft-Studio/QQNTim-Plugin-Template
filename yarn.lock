@@ -1283,6 +1283,8 @@ __metadata:
   dependencies:
     "@flysoftbeta/qqntim-typings": ^3.0.0
     "@types/node": ^20.4.2
+    "@types/react": ^18.2.15
+    "@types/react-dom": ^18.2.7
     "@yarnpkg/sdks": ^3.0.0-rc.48
     esbuild: ^0.18.12
     fs-extra: ^11.1.1

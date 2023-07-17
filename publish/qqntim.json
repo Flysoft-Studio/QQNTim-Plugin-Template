@@ -14,6 +14,11 @@
             "type": "renderer",
             "stylesheet": "style.css",
             "script": "renderer.js"
+        },
+        {
+            "type": "renderer",
+            "page": ["settings"],
+            "script": "settings.js"
         }
     ]
 }
