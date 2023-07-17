@@ -1,5 +1,5 @@
 {
-    "manifestVersion": "2.0",
+    "manifestVersion": "3.0",
     "id": "template-plugin",
     "name": "QQNTim 模板插件",
     "description": "快速开始开发你自己的插件。",

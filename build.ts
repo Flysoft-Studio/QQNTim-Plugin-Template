@@ -20,7 +20,7 @@ async function buildPlugin() {
         format: "cjs",
         entryPoints: [`src${s}main.ts`, `src${s}renderer.ts`],
         outdir: "dist",
-        external: ["electron", "@flysoftbeta/qqntim-typings"],
+        external: ["electron", "react", "react/jsx-runtime", "react-dom", "react-dom/client", "qqntim/main", "qqntim/renderer"],
     });
     await fs.copy("publish", "dist");
 }

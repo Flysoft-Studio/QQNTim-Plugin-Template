@@ -1,7 +1,7 @@
-import type { QQNTim } from "@flysoftbeta/qqntim-typings";
+import * as qqntim from "qqntim/renderer";
 
 export default class Entry implements QQNTim.Entry.Renderer {
-    constructor(qqntim: QQNTim.API.Renderer.API) {
+    constructor() {
         console.log("[Template] Hello world!", qqntim);
     }
 }
